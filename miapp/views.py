@@ -11,7 +11,7 @@ class PrimeraVista(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['title'] = 'VISTA UNO DESDE EL CONTEXTO'
+        context['title'] = 'Listado desde el admin'
         return context
 
 

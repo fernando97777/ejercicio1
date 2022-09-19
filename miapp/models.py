@@ -10,3 +10,6 @@ class Profile(models.Model):
         verbose_name="Edad"
     )
 
+    def __str__(self):
+        return self.name
+
